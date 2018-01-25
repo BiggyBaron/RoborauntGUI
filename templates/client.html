@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<title>Купи у нас</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+</style>
+<body>
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">Закрыть</a>
+  <a href="#food" onclick="w3_close()" class="w3-bar-item w3-button">Войти в кабинет</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">Посмотреть как готовиться еда</a>
+</nav>
+
+<!-- Top menu -->
+<div class="w3-top">
+  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+    <div class="w3-right w3-padding-16">Вызвать администратора</div>
+    <div class="w3-center w3-padding-16">Ресторан "Рога и Копыта"</div>
+  </div>
+</div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+    <div class="w3-quarter">
+      <img src="https://www.w3schools.com/w3images/sandwich.jpg" alt="Sandwich" style="width:100%">
+      <h3>Рогатый сэндвич</h3>
+      <p>Цена: 1500 тенге</p>
+        <p>Каллории: 1700 ккал</p>
+        <p>Протейн: 43%</p>
+        <p>Углеводы: 22%</p>
+        <p>Попробуйте наш сэндвич, он объедение!</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://www.w3schools.com/w3images/steak.jpg" alt="Steak" style="width:100%">
+      <h3>Стейк "Телочка"</h3>
+      <p>Цена: 1500 тенге</p>
+        <p>Каллории: 1700 ккал</p>
+        <p>Протейн: 43%</p>
+        <p>Углеводы: 22%</p>
+        <p>Попробуйте наш стейк, он объедение!</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://www.w3schools.com/w3images/cherries.jpg" alt="Cherries" style="width:100%">
+      <h3>Вишневый микс</h3>
+      <p>Цена: 1200 тенге</p>
+        <p>Каллории: 500 ккал</p>
+        <p>Протейн: 13%</p>
+        <p>Углеводы: 22%</p>
+        <p>Вишни круче яйц!</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://www.w3schools.com/w3images/wine.jpg" alt="Pasta and Wine" style="width:100%">
+      <h3>Комбо "Бык из Сицилии"</h3>
+      <p>Цена: 1500 тенге</p>
+        <p>Каллории: 1700 ккал</p>
+        <p>Протейн: 43%</p>
+        <p>Углеводы: 22%</p>
+        <p>Жрать подано!</p>
+    </div>
+  </div>
+
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <img src="https://www.w3schools.com/w3images/popsicle.jpg" alt="Popsicle" style="width:100%">
+      <h3>Мороженка Зойка</h3>
+      <p>Цена: 1500 тенге</p>
+        <p>Каллории: 1700 ккал</p>
+        <p>Протейн: 43%</p>
+        <p>Углеводы: 22%</p>
+        <p>Жрать подано!</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://www.w3schools.com/w3images/salmon.jpg" alt="Salmon" style="width:100%">
+      <h3>Рыбка для бычар</h3>
+      <p>Цена: 1500 тенге</p>
+        <p>Каллории: 1700 ккал</p>
+        <p>Протейн: 43%</p>
+        <p>Углеводы: 22%</p>
+        <p>Жрать подано!</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://www.w3schools.com/w3images/sandwich.jpg" alt="Sandwich" style="width:100%">
+      <h3>Сэндвич "Телки"</h3>
+      <p>Цена: 1500 тенге</p>
+        <p>Каллории: 1700 ккал</p>
+        <p>Протейн: 43%</p>
+        <p>Углеводы: 22%</p>
+        <p>Жрать подано!</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://www.w3schools.com/w3images/croissant.jpg" alt="Croissant" style="width:100%">
+      <h3>Хлеб</h3>
+      <p>Цена: 1500 тенге</p>
+        <p>Каллории: 1700 ккал</p>
+        <p>Протейн: 43%</p>
+        <p>Углеводы: 22%</p>
+        <p>Жрать подано!</p>
+    </div>
+  </div>
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+
+  <hr id="about">
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32 w3-center">
+    <h3>Наш повар - Молодец Иван!</h3><br>
+    <img src="https://www.w3schools.com/w3images/chef.jpg" alt="Me" class="w3-image" style="display:block;margin:auto" width="800" height="533">
+    <div class="w3-padding-32">
+      <h4><b>Я крутой повар!</b></h4>
+      <h6><i>With Passion For Real, Good Food</i></h6>
+      <p>Привет! Меня зовут Иван Дублиновичка. Я родился в городе-герое Ленинграде. Благодаря выбору моей Мамы, я пошёл учиться и осваивать основы кулинарного мастерства. И сейчас я занимаюсь кулинарным искусством более 15 лет.Состою в клубе Шеф поваров Санкт-Петербурга. За время своей деятельности работал во многих ресторанах Санкт-Петербурга, где специализировался на русской, европейской, итальянской, французской, японской  и даже вегетарианской кухнях. Последние годы я работаю топ-менеджером, шеф-поваром и управленцем.</p>
+    </div>
+  </div>
+  <hr>
+
+  <!-- Footer -->
+  <footer class="w3-row-padding w3-padding-32">
+    <div class="w3-third">
+      <h3>Ссылки</h3>
+      <p>Ресторан Рога и Копыта</p>
+    </div>
+
+    <div class="w3-third">
+      <h3>Блог Повара</h3>
+      <ul class="w3-ul w3-hoverable">
+        <li class="w3-padding-16">
+          <img src="https://www.w3schools.com/w3images/workshop.jpg" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Биография</span><br>
+          <span>Я ПОВААААР!!!</span>
+        </li>
+        <li class="w3-padding-16">
+          <img src="https://www.w3schools.com/w3images/gondol.jpg" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Отдых</span><br>
+          <span>Кататься на канатах?</span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-serif">
+      <h3>Тэги</h3>
+      <p>
+        <span class="w3-tag w3-black w3-margin-bottom">Travel</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">New York</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Dinner</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Salmon</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">France</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Drinks</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Ideas</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Flavors</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Cuisine</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Chicken</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Dressing</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Fried</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Fish</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Duck</span>
+      </p>
+    </div>
+  </footer>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
